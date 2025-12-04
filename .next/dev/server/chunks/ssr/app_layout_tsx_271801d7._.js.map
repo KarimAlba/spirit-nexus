@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///D:/Programming/work%20%26%20projects/spirit-nexus/spirit-nexus/app/layout.tsx"],"sourcesContent":["export default function RootLayout({\r\n  children,\r\n}: {\r\n  children: React.ReactNode\r\n}) {\r\n  return (\r\n    <html lang=\"en\">\r\n      <body>{children}</body>\r\n    </html>\r\n  )\r\n}\r\n"],"names":[],"mappings":";;;;;;AAAe,SAAS,WAAW,EACjC,QAAQ,EAGT;IACC,qBACE,mWAAC;QAAK,MAAK;kBACT,cAAA,mWAAC;sBAAM;;;AAGb"}}]
+}

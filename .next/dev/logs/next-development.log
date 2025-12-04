@@ -1,0 +1,28 @@
+[00:00:01.702] Server  LOG      ✓ Ready in 954ms
+[00:03:02.459] Browser ERROR   ./tsconfig.json:38:1
+An issue occurred while parsing a tsconfig.json file.
+  36 |   ]
+  37 | }
+> 38 |
+     | ^
+> 39 | {
+     | ^^
+  40 |   "compilerOptions": {
+  41 |     "baseUrl": "src/"
+  42 |   }
+
+tsconfig is not parseable: invalid JSON: Text cannot contain more than one JSON value
+[00:03:05.462] Browser ERROR   ./tsconfig.json:38:1
+An issue occurred while parsing a tsconfig.json file.
+  36 |   ]
+  37 | }
+> 38 |
+     | ^
+> 39 | {
+     | ^^
+  40 |   "compilerOptions": {
+  41 |     
+  42 |   }
+
+tsconfig is not parseable: invalid JSON: Text cannot contain more than one JSON value
+[00:03:06.363] Server  LOG      ✓ Compiled in 143ms
