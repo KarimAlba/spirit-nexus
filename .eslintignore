@@ -1,0 +1,12 @@
+.next
+node_modules
+public
+.idea
+.vscode
+.husky
+.prettierrc.json
+.prettierignore
+.stylelintignore
+.stylelintcache
+**/*.json
+!package.json
