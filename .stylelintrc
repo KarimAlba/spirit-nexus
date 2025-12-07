@@ -1,0 +1,30 @@
+{
+  "extends": [
+    "stylelint-config-recommended",
+    "stylelint-config-standard-scss"
+  ],
+  "plugins": [
+    "stylelint-selector-bem-pattern",
+    "stylelint-prettier",
+    "stylelint-order"
+  ],
+  "rules": {
+    "property-no-vendor-prefix": null,
+    "prettier/prettier": true,
+    "scss/at-mixin-pattern": "^[a-zA-Z0-9_-]+$",
+    "selector-class-pattern": null,
+    "custom-property-pattern": null,
+    "no-descending-specificity": null,
+    "no-empty-source": null,
+    "declaration-empty-line-before": null,
+    "keyframes-name-pattern": null,
+    "selector-pseudo-class-no-unknown": [
+      true,
+      {
+        "ignorePseudoClasses": [
+          "global"
+        ]
+      }
+    ]
+  }
+}

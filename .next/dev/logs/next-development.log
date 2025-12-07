@@ -1,28 +1,11 @@
-[00:00:01.702] Server  LOG      ✓ Ready in 954ms
-[00:03:02.459] Browser ERROR   ./tsconfig.json:38:1
-An issue occurred while parsing a tsconfig.json file.
-  36 |   ]
-  37 | }
-> 38 |
-     | ^
-> 39 | {
-     | ^^
-  40 |   "compilerOptions": {
-  41 |     "baseUrl": "src/"
-  42 |   }
-
-tsconfig is not parseable: invalid JSON: Text cannot contain more than one JSON value
-[00:03:05.462] Browser ERROR   ./tsconfig.json:38:1
-An issue occurred while parsing a tsconfig.json file.
-  36 |   ]
-  37 | }
-> 38 |
-     | ^
-> 39 | {
-     | ^^
-  40 |   "compilerOptions": {
-  41 |     
-  42 |   }
-
-tsconfig is not parseable: invalid JSON: Text cannot contain more than one JSON value
-[00:03:06.363] Server  LOG      ✓ Compiled in 143ms
+[00:00:10.705] Server  LOG      ✓ Ready in 7.1s
+[00:00:53.169] Server  LOG      ○ Compiling / ...
+[00:01:02.039] Server  ERROR   D:\Programming\work & projects\spirit-nexus\spirit-nexus\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_7fd0561bbd2e47171703e3216c7a9d23\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:02.056] Server  ERROR    ⨯ Error: Only plain objects, and a few built-ins, can be passed to Client Components from Server Components. Classes or null prototypes are not supported.
+  <... client={{}} children={[...]}>
+              ^^^^
+[00:01:03.228] Browser ERROR   uncaughtError: Error: Only plain objects, and a few built-ins, can be passed to Client Components from Server Components. Classes or null prototypes are not supported.
+  <... client={{}} children={[...]}>
+              ^^^^
+[00:01:38.328] Server  LOG      ✓ Compiled in 260ms
+[00:01:38.357] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.

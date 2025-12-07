@@ -2,6 +2,14 @@
   "compilerOptions": {
     "target": "ES2017",
     "baseUrl": "src/",
+    "strict": true,
+    "paths": {
+      "@/styles/*": ["app/styles/*"],
+      "@/providers/*": ["app/providers/*"],
+      "@/features/*": ["features/*"],
+      "@/shared/*": ["shared/*"],
+      "@/widgets/*": ["widgets/*"],
+    },
     "lib": [
       "dom",
       "dom.iterable",
@@ -9,7 +17,6 @@
     ],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": false,
     "noEmit": true,
     "incremental": true,
     "module": "esnext",
