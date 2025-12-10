@@ -5,9 +5,9 @@ const nextConfig: NextConfig = {
     styledComponents: true,
   },
   reactCompiler: true,
-  sassOptions: {
-    additionalData: '@import "/src/app/styles/mixin.scss";',
-  },
+  // sassOptions: {
+  //   additionalData: '@import "/src/app/styles/mixin.scss";',
+  // },
 };
 
 export default nextConfig;
