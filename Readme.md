@@ -4,7 +4,7 @@
 
 `spirit-nexus` - this is a set of ready-made configurations, based on my experience in commercial development and preferences
 
-## Что есть внутри `spirit-nexus` 📦 ?
+## What is inside `spirit-nexus` 📦 ?
 
 - [Docker](https://www.docker.com/)
 - [TypeScript](https://www.typescriptlang.org/)
@@ -20,12 +20,20 @@
 ## Work with ESLint
 
 - download plugins
-- pnpm run lint
+
+```sh
+pnpm run lint
+```
 
 ## Work with Docker
 
-- docker build -t spirit-nexus .
-- docker run -p 3000:3000 spirit-nexus
+```sh
+docker build -t spirit-nexus .
+```
+
+```sh
+docker run -p 3000:3000 spirit-nexus
+```
 
 ##### (c) KarimAlbaF
 
