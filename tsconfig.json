@@ -38,7 +38,7 @@
     "**/*.mts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "steiger.config.js"  ],
   "exclude": [
     "node_modules"
   ]
