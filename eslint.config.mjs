@@ -7,6 +7,7 @@ import tsSortKeysPlugin from 'eslint-plugin-typescript-sort-keys';
 import eslintPluginUnicorn from 'eslint-plugin-unicorn'; 
 import unusedImports from "eslint-plugin-unused-imports";
 import sortKeysFix from 'eslint-plugin-sort-keys-fix';
+import customRules from './hungarian-notation-for-descriptive-patterns.mjs';
  
 const eslintConfig = defineConfig([
   ...nextVitals,
@@ -19,6 +20,9 @@ const eslintConfig = defineConfig([
       unicorn: eslintPluginUnicorn,
       'unused-imports': unusedImports,
       'sort-keys-fix': sortKeysFix,
+      'local-rules': {
+        rules: customRules,
+      },
     },
     rules: {
       'react/react-in-jsx-scope': 'off',
@@ -368,6 +372,7 @@ const eslintConfig = defineConfig([
         },
       ],
       'valid-jsdoc': 'off',
+      'local-rules/hungarian-notation-for-descriptive-patterns': 'error',
     },
   },
   globalIgnores([
